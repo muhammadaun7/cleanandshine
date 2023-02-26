@@ -1,0 +1,76 @@
+*{
+    font-family: open Sans;
+    color: #425d74;
+    margin: 0;
+    padding: 0;
+}
+.headingTop{
+    font-size: 50px;
+    color: #4B5B68;
+    font-family:'Open Sans';
+    margin: 0 0 38px;
+    font-weight: 700;
+    background: url(images/h-decor.png) no-repeat bottom center;
+    padding: 34px;
+
+}
+.card{
+    border: none !important;
+}
+p{
+    font-size: 16px;
+    font-family:'Open Sans';
+    color: #4B5B68;
+}
+.card img{
+    max-width: 300px;
+    height: 260px;
+    border-radius: 50%;
+}
+.card-title{
+    font-size: 24px;
+    font-family:'Open Sans';
+    margin: 22px 0 0;
+    font-weight: 600;
+    color: #4B5B68;
+}
+.card-body a{
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #6fbf52;
+    text-decoration: none;
+}
+.card-body a:hover{
+    text-decoration: none;
+}
+.infoBox{
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #49a2e3;
+    padding: 37px 25px;
+}
+.infoBox *{
+    font-family:'Open Sans';
+    font-size: 36px;
+    color: #ffff;
+}
+.infoBox a:hover{
+    text-decoration: none;
+    color: #ffff;
+}
+.infoBox div a{
+    font-weight: 600;
+}
+.contactNumBox{
+    display: flex;
+    justify-content: center;
+}
+.col-lg-4{
+    margin: 20px 0 25px;
+}
+.infoBoxRow{
+    padding: 30px 0;
+}

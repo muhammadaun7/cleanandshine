@@ -1,0 +1,130 @@
+*{
+    font-family: open Sans;
+    /* color: #425d74; */
+}
+a{
+    text-decoration: none;
+}
+.col-lg-9 img {
+    height: auto;
+    width: -webkit-fill-available;
+}
+h1.text-center {
+    font-family: open Sans;
+    margin: 26px 0px;
+    color: #4b5b68;
+    font-size: 50px;
+    background: url(images/h-decor.png) no-repeat bottom center;
+    padding: 34px;
+}
+h2{
+    font-size: 34px;
+}
+h3{
+    font-size: 24px;
+}
+ul{
+    padding-left: 0;
+}
+li.items {
+    list-style: none;
+    background-color: #f2f4f5;
+    margin: 1px 0 0 0;
+    padding: 15px 0 15px 22px;
+}
+li.items:hover {
+    
+ background-color: #ffff;
+ border-left: 3px solid #6fbf52;
+}
+li a{
+    font-family: open Sans;
+    color: #4b5b68;
+    text-decoration: none;
+    font-size: 16px;
+}
+li.items a:hover {
+    font-family: open Sans;
+    text-decoration: none;
+    color: #4b5b68;
+    font-size: 16px;
+}
+.form-group{
+    background-image: url('images/question-box-bg-1.jpg');
+}
+.row.inputRow {
+    margin: auto 0 auto 0;
+    padding: 10px 8px;
+}
+.inputRow .form-control{
+    margin: 5px 0px !important;
+}
+textarea.form-control {
+    height: 13rem !important;
+}
+.myBtn{
+    font-family: open Sans;
+    background-color: #ffff !important;
+    color: #4b5b68;
+    border: none;
+    width: 100%;
+    padding: 15px 0;
+    margin: 2px 0px;
+    border-radius: 50px;
+    font-weight: 600;
+}
+.myBtn:hover{
+    background-color: #6fbf52 !important;
+    color: white;
+}
+h2, p, h3, h5, h4, ul, em, ol{
+    font-family: open Sans;
+    color: #4b5b68; 
+}
+h3.boxTitle.text-center {
+    color: #ffff;
+    font-size: 35px;
+} 
+.headingTxt {
+    margin: 30px 0px;
+}
+.infoBox{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #f3f3f3;
+    padding: 26px 30px;
+}
+.infoBox p{
+margin: 0 !important; 
+}
+a.getEstimate.ml-auto {
+    text-decoration: none;
+    color: #ffff;
+    background-color: #4ba0e8;
+    font-family: 'opensans';
+    padding: 12px 15px;
+    border-radius: 30px;
+    font-weight: 600;
+    margin-right: 16px;
+}
+@media (max-width:768px){
+    h1.text-center {
+     font-size:35px;
+    }
+    h3.boxTitle.text-center {
+        font-size: 30px;
+    } 
+}
+@media (max-width:640px){
+    h1.text-center {
+     font-size:30px;
+     color: #4b5b68;
+    }
+    .headingTxt, h3.boxTitle.text-center {
+        font-size: 25px;
+    } 
+}
+.check_ol{
+    list-style-image: url(images/check.png);
+}
